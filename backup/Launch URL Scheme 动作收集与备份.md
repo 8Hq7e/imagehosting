@@ -1,7 +1,7 @@
 ### 主页
 
 - 搜索DTG（DEVONthink to go）：```x-devonthink://search```
-- 聚合搜索：```https://duckduckgo.com/?q=[prompt:聚合搜索]&t=iphone```，需配合 Surge 聚合搜索重写模块使用
+- 聚合搜索：```https://duckduckgo.com/?q=[prompt:聚合搜索]&t=iphone```，需配合 [Surge 聚合搜索重写模块](https://raw.githubusercontent.com/Neurogram-R/Surge/master/module/Q-Search.sgmodule)使用
 - 检查（OmniFocus）：```omnifocus:///review```
 - 微信天府健康通：```ksk://sbboy.com/#weixin://app/wx2604a227cbdfc489/jumpWxa/?userName=gh_f0f2d3970dbc```，需配合 App [跨时空](https://apps.apple.com/app/id1574032305) 使用
 
@@ -83,7 +83,7 @@
 
 ### 其他 App 直接调用 Launch Center Pro 动作
 
-Launch Center Pro 支持从其他 App 调用特定动作：```launch://?url=%5BAction:129%5D```,URL 解码后为```launch://?url=[action:129]```，动作ID可从动作编辑页面底部找到：
+Launch Center Pro 支持从其他 App（例如 OmniFocus、Evernote等） 直接调用特定动作：```launch://?url=%5BAction:129%5D```,URL 解码后为```launch://?url=[action:129]```，动作ID可从动作编辑页面底部找到：
 ![](https://image.ioeer.com/resource/20220925/action.jpeg)
 
 ### URL Scheme 查询网站
