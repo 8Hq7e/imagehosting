@@ -3,7 +3,7 @@
 - 搜索DTG（DEVONthink to go）：```x-devonthink://search```
 - 聚合搜索：```https://duckduckgo.com/?q=[prompt:聚合搜索]&t=iphone```，需配合 [Surge 聚合搜索重写模块](https://raw.githubusercontent.com/Neurogram-R/Surge/master/module/Q-Search.sgmodule)使用
 - 检查（OmniFocus）：```omnifocus:///review```
-- 微信天府健康通：```ksk://sbboy.com/#weixin://app/wx2604a227cbdfc489/jumpWxa/?userName=gh_f0f2d3970dbc```，需配合 App [跨时空](https://apps.apple.com/app/id1574032305) 使用
+- 微信天府健康通：```locklauncher://?userName=gh_f0f2d3970dbc```，需配合 App [锁屏启动](https://apps.apple.com/app/id1636719674) 使用
 
 ### 扫一扫
 
@@ -66,7 +66,7 @@
 - 打开 telegram 群组/用户/机器人 等（以 Price Tag 为例）：```tg://resolve?domain=pricetagapp```
 - 给 telegram 群组/用户/机器人 等发消息（以 Price Tag 为例）：```tg://msg?text=[prompt:发消息]&to=@pricetagapp```
 - 殴路词典：```eudic://dict/[prompt:欧路词典]```
-- 微信丰巢智能柜：```ksk://sbboy.com/#weixin://app/wx2604a227cbdfc489/jumpWxa/?userName=gh_cd6a2f7aa6be&path=pages/order/index.html?orderType=receive```，需配合 App [跨时空](https://apps.apple.com/app/id1574032305) 使用
+- 微信丰巢智能柜：```locklauncher://?userName=gh_cd6a2f7aa6be&path=pages/order/index.html?orderType=receive```，需配合 App [锁屏启动](https://apps.apple.com/app/id1636719674) 使用
 - 记录喝水（Waterminder）：```waterminder://x-callback-url/add-water?amount=300```
 - 识别文字（白描）：```baimiao://x-callback-url/scanText?in=recent&scan=single&count=1&out=copy```
 - 拼图（Picsew）：```picsew://x-callback-url/[list:截图方式|长截图=scroll|横向拼接=hori|竖向拼接=vert]?in=latest&count=[prompt-num:拼接张数]&out=save&clean_status=yes```
